@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ══════════════════════════════════
+       SIDEBAR
+  ══════════════════════════════════ -->
+  <aside>
+
+
+           <a href="index.html"><img src="images/PenWalk.gif" alt="Your Name" class="logo-img"></a>
+    <a href="index.html" class="logo-name">Alex<br>Lund</a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://www.instagram.com/alx.lund/" target="_blank">Instagram</a></li>
+        <!-- Add or remove links here -->
+      </ul>
+    </nav>
+
+  </aside>
+
+  <!-- ══════════════════════════════════
+       MAIN CONTENT
+  ══════════════════════════════════ -->
+  <div class="content">
+
+    <!-- ══ REEL ══════════════════════════════
+
+         HOW TO ADD YOUR REEL:
+
+         From Vimeo or YouTube, click Share → Embed
+         and copy the <iframe> code. Paste it inside
+         the <div class="reel-embed"> below, replacing
+         the placeholder div.
+
+         Example (Vimeo):
+           <div class="reel-embed">
+             <iframe src="https://player.vimeo.com/video/YOUR_ID"
+               allow="autoplay; fullscreen" allowfullscreen></iframe>
+           </div>
+
+         Example (YouTube):
+           <div class="reel-embed">
+             <iframe src="https://www.youtube.com/embed/YOUR_ID"
+               allow="accelerometer; autoplay; encrypted-media"
+               allowfullscreen></iframe>
+           </div>
+
+         Or link to a local video file:
+           <div class="reel-embed">
+             <video src="videos/reel.mp4" controls></video>
+           </div>
+    ════════════════════════════════════════ -->
+    <div class="reel-wrapper">
+      <div class="reel-placeholder">
+           <div class="reel-embed">
+             <iframe src="https://www.youtube.com/embed/YOUR_ID"
+               allow="accelerometer; autoplay; encrypted-media"
+               allowfullscreen></iframe>
+      <!-- Edit this caption -->
+      <p class="reel-caption">Showreel 2025</p>
+    </div>
+
+
+    <!-- ══ PROJECT GRID ═══════════════════════
+
+         Each .item is one project.
+         To add a real image, replace:
+           <div class="placeholder tall">your image here</div>
+         with:
+           <img src="images/yourfile.jpg" alt="Brief description">
+
+         Sizes: tall (portrait), wide (landscape), square.
+         Mix them — varied heights make the grid feel natural.
+
+         Copy any .item block to add more projects.
+    ════════════════════════════════════════ -->
+    <main class="grid">
+
+      <div class="item">
+        <div class="placeholder square"><img src="images/dog_3.gif" alt="Project title" class="project-thumb"></div>
+        <p class="caption">Home Alone<br>it's a dog</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder wide"><img src="images/leaf2.gif" alt="Project title" class="project-thumb"></div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+            <div class="item">
+        <div class="placeholder tall"><img src="images/cnn.png" alt="Project title" class="project-thumb"></div>
+        <p class="caption">CNN —<br>Keeping hydrated</p>
+      </div>
+
+            <div class="item">
+        <div class="placeholder square"><img src="images/Loop2.gif" alt="Project title" class="project-thumb"></div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder wide">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder tall">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder square">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder wide">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder square">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <div class="item">
+        <div class="placeholder tall">your image here</div>
+        <p class="caption">Project title —<br>short description</p>
+      </div>
+
+      <!-- ↑ paste more .item blocks here -->
+
+    </main>
+
+  </div><!-- /.content -->
+</div><!-- /.layout -->
+
+</body>
+</html>
